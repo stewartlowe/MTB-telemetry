@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-	output = analogRead(input);
+	output = analogRead(input);o
 	Serial.println(output);
 	delay(100);
 }
